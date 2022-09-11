@@ -1,5 +1,6 @@
 import algorithms.BinarySearch
 import algorithms.BubbleSort
+import algorithms.SelectionSort
 import java.util.Arrays
 
 fun main(args: Array<String>) {
@@ -8,4 +9,5 @@ fun main(args: Array<String>) {
     println("Index for searched value is $value")
 
     println(Arrays.toString(BubbleSort.sort(arrayOf(65, 55, 45, 35, 25, 15, 10))))
+    println(Arrays.toString(SelectionSort.sort(arrayOf(65, 55, 45, 35, 25, 15, 10))))
 }
